@@ -1,0 +1,2 @@
+Starting docker-compose_hello-container_1 ... done
+Attaching to docker-compose_hello-container_1
