@@ -5,3 +5,11 @@ Recreating docker-compose_hello-container_1 ... done
 Attaching to docker-compose_hello-container_1
 hello-container_1  | Hello, Docker Compose!
 docker-compose_hello-container_1 exited with code 0
+
+
+Starting af5eca40ee55_docker-compose_data-container_1 ... done
+Recreating docker-compose_hello-container_1           ... done
+Attaching to af5eca40ee55_docker-compose_data-container_1, docker-compose_hello-container_1
+hello-container_1  | Hello, Docker Compose!
+af5eca40ee55_docker-compose_data-container_1 exited with code 0
+docker-compose_hello-container_1 exited with code 0
