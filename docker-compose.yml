@@ -1,13 +1,5 @@
 version: "3.7"
 services:
-    hello-container:
-        image: gentux/apline-bash:emilyrenee
-        volumes: ['data-container', "./scripts:/home/scripts"]
-        command: bash /home/scripts/welcome-compose.sh
-    data-container:
-        image: alpine:latest
-        volumes:
-            - "./scripts:/home/scripts"
     app:
         image: gentux/php:lumen-5.6-ci
         networks:
@@ -30,8 +22,8 @@ services:
             - modules
         environment:
             MYSQL_ROOT_PASSWORD: secret
-            MYSQL_DATABASE: events
-            MYSQL_USER: events
+            MYSQL_DATABASE: modules
+            MYSQL_USER: modules
             MYSQL_PASSWORD: secret
 networks:
     modules: 
