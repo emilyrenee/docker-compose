@@ -1,2 +1,7 @@
 Starting docker-compose_hello-container_1 ... done
 Attaching to docker-compose_hello-container_1
+
+Recreating docker-compose_hello-container_1 ... done
+Attaching to docker-compose_hello-container_1
+hello-container_1  | Hello, Docker Compose!
+docker-compose_hello-container_1 exited with code 0

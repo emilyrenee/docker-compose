@@ -1,7 +1,7 @@
 version: "3.7"
 services:
     hello-container:
-        image: gentux/apline-bash
+        image: gentux/apline-bash:emilyrenee
         volumes:
             - "./scripts:/home/scripts"
         command: bash /home/scripts/welcome-compose.sh
