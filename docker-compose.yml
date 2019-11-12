@@ -1,4 +1,7 @@
 version: "3.7"
 services:
-  hello-container:
-    image: dockercloud/hello-world
+    hello-container:
+        image: gentux/apline-bash
+        volumes:
+            - "./scripts:/home/scripts"
+        command: bash /home/scripts/welcome-compose.sh
